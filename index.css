@@ -1,14 +1,40 @@
-h1, p {
-  text-align: center;
+p, h1, a {
   font-family: 'inconsolata', consolas;
 }
 
-.footer {
-  display:block;
-  clear:right;
+.top-nav {
   text-align: center;
-  margin-top: 7em;
-  margin-bottom: 5em;
+  color: #d08d8d;
+  overflow: hidden;
+}
+
+.top-nav a {
+  color: #000000;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 17px;
+}
+
+.description {
+    padding-top: 20px;
+}
+
+.description img {
+  display: inline-block;
+  vertical-align:middle;
+  width:30%;
+  position: relative;
+  left: 130px;
+  top: 16px;
+}
+
+.description p {
+  position: absolute;
+  width: 400px;
+  right: 300px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 20px;
 }
 
 .icons {
@@ -25,5 +51,13 @@ h1, p {
   font-size: 25px;
   padding:8px;
   position: relative;
-  right:15px; 
+  right:15px;
+}
+
+.footer {
+  display:block;
+  clear:right;
+  text-align: center;
+  margin-top: 105px;
+  margin-bottom: 2em;
 }
