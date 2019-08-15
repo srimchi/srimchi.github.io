@@ -1,5 +1,29 @@
-body {
-  color: #33ccff;
+h1, p {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'inconsolata', consolas;
+}
+
+.footer {
+  display:block;
+  clear:right;
+  text-align: center;
+  margin-top: 7em;
+  margin-bottom: 5em;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons li {
+  display:inline;
+  float: none;
+}
+
+.icons i {
+  color: #d08d8d;
+  font-size: 25px;
+  padding:8px;
+  position: relative;
+  right:15px; 
 }
