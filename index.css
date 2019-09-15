@@ -1,4 +1,4 @@
-p, h1, a, h2 {
+p, h1, a, h2, h3 {
   font-family: 'inconsolata', consolas;
 }
 
@@ -68,7 +68,6 @@ p, h1, a, h2 {
 .personal-text a:hover {
   color: #e7c6c6;
 }
-
 
 .footer {
     display: inline-block;
@@ -140,4 +139,74 @@ p, h1, a, h2 {
 .card {
   width:18rem;
   margin-bottom: 12px;
+}
+
+.card a {
+  color: #d08d8d;
+  text-decoration: underline;
+}
+
+.card a:hover{
+  color: #e7c6c6;
+}
+
+.arduino-vid video{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.arduino-vid p {
+  text-align: center;
+}
+
+.arduino-description {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.arduino-description h2{
+  text-align: center;
+  text-decoration: underline;
+  color: #d08d8d;
+}
+
+.arduino-description p {
+  text-align: left;
+}
+
+.arduino-description a:hover {
+  color: #e7c6c6;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.RUN-gif iframe {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.RUN-description {
+  margin-bottom: 70px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.RUN-description h2{
+  text-align: center;
+  text-decoration: underline;
+  color: #d08d8d;
+}
+
+.RUN-description p {
+  text-align: left;
+}
+
+.RUN-description a:hover {
+  color: #e7c6c6;
 }
